@@ -1,0 +1,157 @@
+.main{
+    margin-top: 37px;
+    margin-bottom: 83px;
+}
+.main__sorting{
+    margin-bottom: 38px;
+}
+.sorting__heading{
+    display: inline;
+    font-size: 1em;
+    margin-right: 48px;
+}
+.sorting__factor{
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    margin-right: 55px;
+    font-family: var(--fontPrimary);
+}
+.card{
+    position: relative;
+}
+.cards__card{
+    margin-bottom: 23px;
+}
+.card__like{
+    background: none;
+    border: none;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 34px;
+    left: 0px;
+    left: 302px;
+    outline: none;
+    cursor: pointer;
+}
+.liked{
+    background: url('../../assets/icons/saved-active.svg') no-repeat;
+}
+.no-like{
+    background: url('../../assets/icons/saved-inactive.svg') no-repeat;
+}
+.card__like:hover{
+    transform: scale(1.1);
+}
+.card__info{
+    margin-left: 29px;
+}
+.card__heading{
+    font-size: 24px;
+    margin-top: 29px;
+    margin-bottom: 24px;
+}
+.card__rectangle{
+    width: 6px;
+    height: 26px;
+    background-color: var(--colorSecondary);
+    align-self: center;
+    margin-right: 18px;
+}
+.card__color{
+     margin-right: 20px;
+}
+.card__age{
+    margin-right: 48px;
+}
+.card__rectangle, .card__color, .card__age, .card__legs{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+.card__description{
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+}
+.card__description--larger{
+    font-size: 16px;
+}
+.card__price{
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 29px;
+}
+.card__button{
+    width: 100%;
+    font-size: 16px;
+    font-family: var(--fontPrimary);
+    height: 65px;
+    background-color: var(--colorSecondary);
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: var(--colorWhite);
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+}
+.card__button:hover{
+    transform: scale(1.05);
+}.card__button:disabled:hover{
+    transform: scale(1.0);
+    cursor: default;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card__button--inactive{
+    background-color: var(--colorPrimary);
+}
+.card--sale::after{
+    content: "-40%";
+    position: absolute;
+    top: 34px;
+    left: 38px;
+    background-color: var(--colorSale);
+    width: 78px;
+    height: 39px;
+    color: var(--colorWhite);
+    font-size: 16px;
+    font-family: var(--fontPrimary);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__button{
+    display: block;
+    width: 380px;
+    height: 65px;
+    border: 1px solid #CACACA;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    font-size: 14px;
+    color: var(--colorBlack);
+    margin-top: 45px;
+    outline: none;
+    cursor: pointer;
+}
+.main__button:hover{
+    background-color: silver;
+}
+input[type="email"]:invalid:focus::before{
+    content: "Write down your email";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 300px;
+    height: 65px;
+    background-color: white;
+}

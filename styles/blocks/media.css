@@ -1,0 +1,195 @@
+@media only screen and (max-width: 1199.98px){
+    .container {
+        width: 992px;
+    }
+    .row{
+        width: 922px;
+    }
+}
+@media only screen and (max-width: 991.98px){
+    .container {
+        width: 768px;
+    }
+    .row{
+        width: 708px;
+    }
+    /* HEADER BLOCK */
+    .nav__list{
+        width: 300px;
+    }
+    .header__logo{
+        margin-right: 60px;
+    }
+
+    /* MAIN BLOCK */
+    .card__image{
+        width: 300px;
+    }
+    .card__info{
+        margin-left: 8px;
+    }
+    .card__like{
+        left: 220px;
+    }
+    .card--sale::after{
+        width: 70px;
+        height: 30px;
+    }
+    
+    /* FOOTER BLOCK */
+    .footer__row{
+        justify-content: space-between;
+    }
+    .footer__hook{
+        margin: 0;
+    }
+    .footer__subscribe{
+
+    }
+    .footer__heading{
+        display: inline-block;
+    }
+    .footer__form{
+        width: min-content;
+    }
+    .footer__input{
+        margin-right: 0;
+    }
+    .footer__button{
+        
+    }
+}
+@media only screen and (max-width: 767.98px){
+    .container {
+        width: 576px;
+    }
+    .row{
+        width: 536px;
+    }
+    
+    /* HEADER BLOCK */
+    .nav__list{
+        width: 350px;
+    }
+    .header__top{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .header__contacts{
+        margin-top: 20px;
+    }
+    /* MAIN BLOCK */
+    .card__image{
+        width: 250px;
+    }
+    .card__description{
+        font-size: 10px;
+    }
+    .card__description--larger{
+        font-size: 14px;
+    }
+    .card__age{
+        margin-right: 20px;
+    }
+    .card__like{
+        left: 180px;
+    }
+    .card--sale::after{
+        font-size: 12px;
+        width: 60px;
+    }
+    .main__button{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 575.98px){
+    .container {
+        max-width: 320px;
+    }
+    .row{
+        width: 300px;
+    }
+
+    /* HEADER BLOCK */
+    .nav__list{
+        display: none;
+    }
+    .header__burger-button{
+        display: inline;
+    }
+    .header__top{
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+    .header__logo{
+        margin-right: 0;
+    }
+    .header__heading{
+        font-size: 25px;
+    }
+    .phone-number{
+        font-size: 20px;
+    }
+    
+    /* MAIN BLOCK */
+    .sorting{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sorting__heading, .sorting__factor{
+        margin-right: 0;
+    }
+    .cards{
+        justify-content: center;
+    }
+    .main__button{
+        width: 100%;
+    }
+    /* FOOTER BLOCK */
+    .footer__row{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        align-items: center;
+    }   
+    .footer__hook{
+        margin-bottom: 20px;
+    } 
+    .footer__input{
+        width: 100%;
+    }
+    .footer__button{
+        width: 100%;
+    }
+    .footer__form{
+        width: 100%;
+    }
+
+    /* LIB */
+    .back-to-top{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 319.98px){
+    .container{
+        max-width: 100%;
+    }
+    .row{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .header__top{
+        flex-wrap: unset;
+        margin-bottom: 5px;
+    }
+    .header__burger-button{
+        margin-bottom: 5px;
+    }
+    .card__image{
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+body{
+    width: 100vw;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}

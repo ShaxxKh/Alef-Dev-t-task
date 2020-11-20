@@ -1,0 +1,83 @@
+.header{
+    color: var(--colorWhite);
+
+}
+.header::before{
+    content: "";
+    width: 100vw;
+    height: 252px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../../assets/images/header1.png');
+    z-index: -1;
+}
+.header__container {
+    
+}
+.header__row{
+    height: 252px;
+}
+.header__top{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.header__logo{
+    margin-right: 120px;
+    align-self: flex-start;
+}
+.header__nav{
+
+}
+.nav__list{
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-between;
+}
+.nav__list-link{
+    color: var(--colorWhite);
+    text-decoration: none;
+}
+.nav__list-link:hover{
+    text-decoration: underline;
+}
+.nav__list-item{
+    font-size: 18px;
+}
+.nav__list-link--active{
+    font-weight: 700;
+}
+.header__contacts{
+    font-size: 18px;
+    text-align: right;
+    margin-left: auto;
+}
+.phone-number{
+    font-size: 24px;
+    display: block;
+}
+.header__heading{
+    font-size: 38px;
+}
+.header__burger-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 30px;
+    display: none;
+}
+.arrow-descending{
+    width: 15px;
+    height: 15px;
+    background: url('../../assets/icons/arrow-down.svg') no-repeat;
+    display: inline-block;
+}
+.arrow-ascending{
+    background: url('../../assets/icons/arrow-down.svg') no-repeat;
+    transform: rotate(180deg);
+}

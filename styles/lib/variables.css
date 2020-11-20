@@ -1,0 +1,9 @@
+:root{
+    --fontPrimary: 'Montserrat', "Helvetica" , sans-serif;
+    
+    --colorPrimary: #1F2021;
+    --colorSecondary: #6EBBD3;
+    --colorWhite: #ffffff;
+    --colorBlack: #000000;
+    --colorSale: #E52D2D;
+}
