@@ -3,12 +3,13 @@
     padding: 15px;
     position: fixed;
     top: 10%;
-    left: 100%;
+    right: 100%;
     color: var(--colorWhite);
     font-size: 24px;
     transition: all 0.5s;
     width: fit-content;
 }
 .show-message {
-    left: 50vw;
+    left: auto;
+    right: 0;
 }
